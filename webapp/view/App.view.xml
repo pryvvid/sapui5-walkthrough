@@ -5,7 +5,7 @@
 >
 	<Button
 		press=".onShowHello"
-		text="Say Hello"
+		text="{i18n>showHelloButtonText}"
 	/>
 	<Input
 		value="{/recipient/name}"
