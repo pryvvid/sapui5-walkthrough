@@ -17,6 +17,9 @@ sap.ui.define(
             oDialog.open();
           });
         },
+        onCloseDialog: function () {
+          this.byId("helloDialog").close();
+        },
       }
     );
   }
